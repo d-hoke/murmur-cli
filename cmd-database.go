@@ -1,7 +1,7 @@
 package main
 
 import (
-	"layeh.com/murmur-cli/MurmurRPC"
+	"github.com/d-hoke/murmur-cli/MurmurRPC"
 )
 
 func init() {

@@ -50,7 +50,7 @@ func main() {
 		panic(err)
 	}
 	find := []byte("\npackage MurmurRPC\n")
-	replace := []byte("\npackage MurmurRPC " + `// import "layeh.com/murmur-cli/MurmurRPC"` + "\n")
+	replace := []byte("\npackage MurmurRPC " + `// import "github.com/d-hoke/murmur-cli/MurmurRPC"` + "\n")
 	contents = bytes.Replace(contents, find, replace, 1)
 	if err := ioutil.WriteFile("MurmurRPC/MurmurRPC.pb.go", contents, 0755); err != nil {
 		panic(err)

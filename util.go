@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"layeh.com/murmur-cli/MurmurRPC"
+	"github.com/d-hoke/murmur-cli/MurmurRPC"
 
 	"github.com/golang/protobuf/proto"
 )

@@ -9,7 +9,7 @@ import (
 	"text/template"
 	"time"
 
-	"layeh.com/murmur-cli/MurmurRPC"
+	"github.com/d-hoke/murmur-cli/MurmurRPC"
 
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

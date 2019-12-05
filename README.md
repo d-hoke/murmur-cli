@@ -1,3 +1,6 @@
+#forked from github.com/layeh/murmur-cli, changed paths to d-hoke repository as
+#initial build attempt.
+
 # murmur-cli
 
 murmur-cli provides an interface to a grpc-enabled murmur server.
@@ -69,7 +72,7 @@ murmur-cli provides an interface to a grpc-enabled murmur server.
 
 ## Installation
 
-    go get -u layeh.com/murmur-cli
+    go get -u github.com/d-hoke/murmur-cli
 
 ## Author
 

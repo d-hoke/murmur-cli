@@ -1,1 +1,1 @@
-package main // import "layeh.com/murmur-cli"
+package main // import "github.com/d-hoke/murmur-cli"
